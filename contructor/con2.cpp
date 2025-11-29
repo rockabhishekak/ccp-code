@@ -7,14 +7,15 @@ class rectangle{
     {
         cin>>l>>b;
     }
-    rectangle()//paramenterized constructor
+    rectangle(int a,int b)//paramenterized constructor 
     {
         a=l;
-        b=b;
+        this->b=b;
     }
     // |
     // ^
     // rectangle(int x,int y):l(x),b(y){};
+
     void area()
     {
         cout<<"area of rectange is : "<<l*b<<endl;
