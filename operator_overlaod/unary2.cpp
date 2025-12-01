@@ -12,24 +12,26 @@ class Counter{
     {
         return count;
     }
-    void operator++(int) //prefix increment operator overloading
+    void operator++(int) //postfix increment operator overloading
     {
         count++;
     }
    
     void operator++() //prefix increment operator overloading
     {
-        count++;
+        ++count;
     }
     
 };
 int main()
 {
     Counter c1;
+    Counter c2;
     cout<<"Initial count: "<<c1.getCount()<<endl;
     c1++;
     cout<<"Count after increment: "<<c1.getCount()<<endl;
-    ++c1;
-    cout<<"Count after increment: "<<c1.getCount()<<endl;
+    // cout<<"Initial count: "<<c2.getCount()<<endl;
+    ++c2;
+    cout<<"Count after increment: "<<c2.getCount()<<endl;
     return 0;
 }
