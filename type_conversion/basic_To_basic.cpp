@@ -13,7 +13,7 @@ int main()
     int a;
     a=f; // Implicit conversion from float to int
     cout<<a<<endl;
-    float b=65.2;
+    float b=65.0;
     int j;
     // j=b%10; // Error: Modulus operator not applicable for float
     // j=static_cast<int>(b)%10; // Explicit conversion from float to int
