@@ -1,2 +1,1 @@
- c2;
-    // c2.GetA();
+ Calls Base class show function due to early bindin
