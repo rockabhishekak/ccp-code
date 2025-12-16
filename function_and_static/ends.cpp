@@ -6,7 +6,7 @@ int main()
 {
     string a,b;
     cin>>a>>b;
-    cout<<ws<<a<<endl;
+    cout<<setw(5)<<a<<endl;
     cout<<b;
 }
 

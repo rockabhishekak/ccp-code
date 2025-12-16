@@ -21,6 +21,6 @@ int main()
 
     abc a1;
     a1.area();//calling a default constructor
-    abc 
+    
 
 }
